@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D K CODER</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Dhirendra Coding</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <button id="dark-mode-toggle">🌙</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <h1>Welcome to My Coding Website</h1>
+        <p>We create experiences that inspire growth.</p>
+        <a href="#about" class="cta-button">Learn More</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a team of professionals delivering high-quality solutions for your business needs.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-card">
+            <h3>Web Development</h3>
+            <p>Modern and scalable websites for your brand.</p>
+        </div>
+        <div class="service-card">
+            <h3>UI/UX Design</h3>
+            <p>Crafting user-friendly and elegant interfaces.</p>
+        </div>
+        <div class="service-card">
+            <h3>Digital Marketing</h3>
+            <p>Helping you reach a wider audience effectively.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial">
+                <p>"Fantastic work! Our website traffic increased by 50%."</p>
+                <span>- John Doe</span>
+            </div>
+            <div class="testimonial">
+                <p>"Great communication and professional results."</p>
+                <span>- Jane Smith</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form" action="https://formspree.io/f/xgvebppk" method="POST">
+            <input type="text" placeholder="Your Name" id="name" name="name" required>
+            <input type="email" placeholder="Your Email" id="email" name="email" required>
+            <textarea placeholder="Your Message" id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/dhirendrakumar.mandal.7583" target="_blank" class="icon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="30" height="30">
+            </a>
+            <a href="https://www.instagram.com/dhirendra7572/" target="_blank" class="icon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="30" height="30">
+            </a>
+        </div>
+        <p>&copy; 2024 D K Coder. All rights reserved.</p>
+    </footer>
+    <!--Start of Tawk.to Script-->
+ <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/6759918f49e2fd8dfef65903/1iequ16d6';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+ </script>
+    <!--End of Tawk.to Script-->
+        
+    <!-- Scroll-to-Top Button -->
+    <button id="scroll-to-top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
